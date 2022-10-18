@@ -8,6 +8,7 @@ class Programa
         int outroInteiro = 0;
         float flutuante = 10.5f;
         double outroFlutuante = 10.5;
+        string mensagem = "Tecle Enter para continuar...";
         
         outroInteiro = (int)flutuante;
 
@@ -16,7 +17,7 @@ class Programa
         Console.WriteLine(outroInteiro);
         Console.WriteLine(flutuante);
         Console.WriteLine(outroFlutuante);
-        Console.WriteLine("Tecle Enter para continuar...");
+        Console.WriteLine(mensagem);
         Console.ReadLine();
     }
 }
